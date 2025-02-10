@@ -1,0 +1,7 @@
+.listItem {
+  border: 0;
+  flex: 1;
+  height: 52px;
+  padding: 8px;
+  color: #20374B;
+}

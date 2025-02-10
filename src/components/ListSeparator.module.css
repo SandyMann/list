@@ -1,0 +1,13 @@
+.listSeparator {
+  height: 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 8px;
+  padding-left: 16px;
+  border-top: 1px solid #E4E5E8;
+  border-bottom: 1px solid #E4E5E8;
+  color: #5A6D80;
+  line-height: 20px;
+  font-weight: 500;
+}
