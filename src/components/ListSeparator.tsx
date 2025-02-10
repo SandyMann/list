@@ -10,5 +10,5 @@ export function ListSeparator({heading}: ListSeparatorProps){
       <div>{heading}</div>
       <div>&#8964;</div>
     </div>
-    );
+  );
 }

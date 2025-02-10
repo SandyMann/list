@@ -24,9 +24,9 @@ export function ContactList({ contacts, searchText }: ContactListProps) {
             contact={product}
             key={product.name} />
       )}
-      </div>
-      <ListSeparator heading='Absent' ></ListSeparator>
-      <div className={`${classes.list}`}>
+    </div>
+    <ListSeparator heading='Absent' ></ListSeparator>
+    <div className={`${classes.list}`}>
       {contactsAbsent.map( product =>
         <ContactRow
             contact={product}
